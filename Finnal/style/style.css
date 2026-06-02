@@ -1,0 +1,510 @@
+body {
+  font-family: "Finlandica Text", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+/* Nav stuff */
+nav .logo {
+  font-weight: 400;
+}
+span {
+  font-weight: 700;
+  color: rgb(11, 11, 187);
+}
+nav .navigation ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+nav .navigation li {
+  list-style-type: none;
+  font-size: medium;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+}
+nav .navigation a {
+  text-decoration: none;
+  color: black;
+}
+nav .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 100px;
+  margin-inline: auto;
+}
+nav .nav-container img {
+  height: 30px;
+  display: flex;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 0% 5%;
+}
+header .header-container {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  gap: 5rem;
+}
+header .header-container .image img {
+  width: 750px;
+  max-width: 100%;
+  border-radius: 40px;
+}
+
+header .header-container .description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header .header-container .description .text h1 {
+  font-size: 3.8rem;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+header .header-container .description .text h2 {
+  font-size: 25px;
+  margin: 0;
+  line-height: 1.7;
+  font-weight: 500;
+}
+header .header-container .description button {
+  border-radius: 10px;
+  border: none;
+  font-family: "Finlandica Text", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(6, 6, 175);
+  color: white;
+  padding: 15px;
+  width: 190px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-container .description button:hover {
+  background-color: rgb(5, 5, 102);
+}
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 100px;
+  gap: 400px;
+}
+
+/* Tentang */
+main article.tentang {
+  display: flex;
+  gap: 80px;
+}
+
+main article.tentang .box-container {
+  display: flex;
+  flex: 2;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+main article.tentang .box-container .a {
+  display: flex;
+  gap: 10px;
+}
+main article.tentang .box-container .b {
+  display: flex;
+  gap: 10px;
+}
+main article.tentang .box-container .kotak {
+  width: 350px;
+  height: 200px;
+}
+main article.tentang .box-container .kotak img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+main article.tentang .text h1 {
+  font-size: 2.3rem;
+}
+main article.text p {
+  text-align: justify;
+}
+.information-container {
+  display: flex;
+  gap: 10px;
+}
+.information-container .information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(6, 6, 175);
+}
+.information-container span {
+  font-size: 1rem;
+  color: white;
+}
+/* Terlaris */
+main article #terlaris {
+  display: flex;
+  flex-direction: row;
+}
+main article .populer-image img {
+  border-radius: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Mobil tersedia */
+main article.tersedia .tersedia-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+main article.tersedia .tersedia-container .kotak-tersedia {
+  width: 400px;
+  height: 500px;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.13);
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+}
+main article.tersedia .tersedia-container .kotak-tersedia img {
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.price {
+  line-height: 1;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 8px 0;
+}
+
+.price span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #777;
+}
+
+.rentals {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0 0 20px 0;
+}
+
+.rentals i {
+  color: green;
+  margin-right: 5px;
+}
+
+.book-btn {
+  margin-top: auto;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Finlandica Text", sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #444;
+}
+/* Hubungi */
+.hubungi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+aside {
+  min-width: 300px;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.13);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+aside img {
+  width: 200px;
+  border-radius: 100%;
+}
+aside h2 {
+  line-height: 0.4;
+}
+aside .bio-info {
+  line-height: 0.1;
+}
+aside .bio-info .media-sosial {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+aside .bio-info i {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  margin-top: 10px;
+}
+
+article {
+  flex: 2;
+  min-width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field,
+.textbox {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.5;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus,
+.textbox:focus {
+  border-color: #3b82f6;
+}
+
+.textbox {
+  min-height: 150px;
+  resize: vertical;
+  font-family: "Finlandica Text", sans-serif;
+}
+
+.btn-submit {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(6, 6, 175);
+  font-family: "Finlandica Text", sans-serif;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #062872;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+  color: white;
+  background-color: black;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+/* harmburger */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: black;
+}
+
+/* Responsive area */
+/* Tablet & Mini Laptop */
+@media screen and (max-width: 1200px) {
+  nav .nav-container {
+    padding: 2% 5%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav .nav-container .navigation ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2rem;
+    padding: 0;
+  }
+  main {
+    padding: 5%;
+    gap: 100px;
+  }
+  main article.tentang {
+    gap: 30px;
+    flex-direction: column;
+  }
+  main article.tentang .box-container .kotak {
+    width: 100%;
+  }
+  .hubungi {
+    flex-direction: column;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 800px) {
+  /* Navigasi dan hamburgger */
+  nav .nav-container {
+    padding: 5% 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  /* nampilin harmburger */
+  .menu-toggle {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation.active {
+    display: block;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  }
+
+  /* Header */
+  header {
+    padding: 10% 5%;
+  }
+  header .header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+  }
+  header .header-container .image {
+    order: -1;
+  }
+  header .header-container .image img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  header .header-container .description {
+    gap: 15px;
+  }
+  header .header-container .description .text h1 {
+    font-size: 3rem;
+  }
+  header .header-container .description .text h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Main  */
+  main {
+    padding: 5% 4%;
+    gap: 300px;
+  }
+
+  /* Tentang Kami */
+  main article.tentang {
+    text-align: center;
+  }
+  main article.tentang .box-container .a {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+  main article.tentang .box-container .b {
+    display: none;
+  }
+  main article.tentang .text h1 {
+    font-size: 1.8rem;
+  }
+  main article.tentang .text p {
+    text-align: center;
+  }
+  .information-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Terlaris */
+  main article#terlaris {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  main article .populer-image img {
+    max-height: 250px;
+  }
+
+  /* Mobil Tersedia */
+  main article.tersedia .tersedia-container .kotak-tersedia {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  /* Hubungi */
+  .hubungi {
+    padding: 0;
+  }
+  article {
+    min-width: 100%;
+  }
+  aside {
+    min-height: 250px;
+  }
+}
